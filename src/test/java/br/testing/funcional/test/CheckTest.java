@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
-public class CheckTests {
+public class CheckTest {
 
     @Test
     @DisplayName("Validate Status 200 and success message")

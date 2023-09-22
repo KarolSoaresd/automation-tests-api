@@ -1,4 +1,4 @@
-package com.testing.config;
+package br.testing.config;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.LoadPolicy;
@@ -13,39 +13,28 @@ public interface Configuration extends Config {
     @Key("base.uri")
     String baseUri();
 
-    @Key("base.path")
-    String basePath();
+    @Key("test.check")
+    String testCheck();
 
-    @Key("health.check")
-    String healthCheck();
-
-    @Key("users.register")
-    String usersRegister();
+    @Key("users.find")
+    String usersFinder();
 
     @Key("users.login")
     String usersLogin();
 
-    @Key("users.profile")
-    String usersProfile();
+    @Key("password")
+    String password();
 
-    @Key("users.forgotPassword")
-    String usersForgotPassword();
+    @Key("product.find")
+    String productFind();
 
-    @Key("users.verifyResetPasswordToken")
-    String usersVerifyResetPasswordToken();
+    @Key("product.create")
+    String productCreate();
 
-    @Key("users.resetPassword")
-    String usersResetPassword();
+    @Key("product.findAll")
+    String productFindAll();
 
-    @Key("users.changePassword")
-    String usersChangePassword();
+    @Key("product.id")
+    String productId();
 
-    @Key("users.logout")
-    String usersLogout();
-
-    @Key("users.deleteAccount")
-    String usersDeleteAccount();
-
-    @Key("notes")
-    String notes();
 }

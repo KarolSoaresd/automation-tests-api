@@ -1,4 +1,4 @@
-package br.testing.funcional;
+package br.testing.funcional.users;
 
 import br.testing.config.ConfigurationManager;
 import br.testing.data.ExceptionsMessages;
